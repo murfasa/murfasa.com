@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  :root {
+    --fd-background: 210 20 98;
+    --fd-nav-height: 600px !important;
+    --fd-accent: 0 55 60;
+  }
+  
+  .dark {
+    --fd-background: 210 12 16;
+    --fd-accent: 0 55 50;
+  }
+
+  /*:root {
+    --color-primary: hsl(210, 20%, 98%);
+    --color-dark-primary: hsl(210, 12%, 16%);
+    --color-secondary: hsl(210,12.2%,18.8%);
+    --color-accent: hsl(0,55%,50%);
+    --color-accent-hover: hsl(0,55%,40%);
+    --color-brand: hsl(358, 65%, 53%);
+    --color-brand-soft: hsla(350, 78%, 22%, 0.932);
+  }*/
+}
+
+
+@layer components {
+}
